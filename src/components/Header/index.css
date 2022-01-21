@@ -1,0 +1,6 @@
+.headerStyle{
+  display: flex;
+  justify-content: space-around;
+  background-color: #fc0000;
+  color: #fff;
+}

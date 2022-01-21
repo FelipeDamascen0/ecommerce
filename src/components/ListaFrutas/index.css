@@ -1,0 +1,93 @@
+.containerFrutas{
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.catalagoFrutas{
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: 0.7s;
+}
+
+.catalagoFrutas:hover{
+  box-shadow: 5px 5px 5px 5px #747373;
+}
+
+.title{
+  display: flex;
+  justify-content: space-between;
+}
+
+.title p {
+  font-size: 10px;
+}
+
+.namePrice{
+  display: flex;
+  justify-content:center;
+  margin-top: 10px;
+}
+
+.adicionar{
+  display: flex;
+}
+
+.price button{
+  width: 100%;
+  border: none;
+  width: 200px;
+  background-color: #3eee44;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 10px;
+  transition: 0.7s;
+}
+
+.price button:hover{
+  background-color: #65fa6a;
+}
+
+.adicionar button{
+  border: none;
+  font-size: 30px;
+  background-color: #fff;
+  color: #01da08
+}
+
+
+
+.numeroItems{
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+@media (max-width: 700px){
+  .containerFrutas{
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1265px){
+  .containerFrutas{
+    width: 900px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 897px){
+  .containerFrutas{
+    width: 700px;
+    margin: 0 auto;
+  }
+}
